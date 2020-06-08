@@ -1,0 +1,88 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #181818;
+    color: #ccc;
+}
+#header {
+    padding: 10px;
+}
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-details-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+#header-img-wrapper {
+    width: 50%;
+}
+
+.header-img {
+    width: 240px;
+}
+
+.header-link {
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+#header-lower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header-lower-text {
+    font-size: 25px;
+    padding: 15px;
+}
+
+.header-lower-btn {
+    border: none;
+    background-color: burlywood;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.product-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-type {
+    width: 50%;
+}
+
+.product-type-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.icon {
+    font-size: 35px;
+    display: flex !important;
+    align-items: center;
+    padding: 20px;
+}
+.fullCard {
+    width: 245px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 4px;
+  }
+.price {
+    align-content: center;
+}
+.marco {
+    width: 100px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #777;
+}
