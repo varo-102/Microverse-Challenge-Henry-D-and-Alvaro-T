@@ -3,7 +3,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #181818;
+    background-color: #ff0808;
     color: #ccc;
     text-align: center;
 }
@@ -90,4 +90,8 @@ body {
     height: 50px;
     margin: 0 auto;
     background-color: #777;
+}
+
+#background {
+    background-color: rgb(23, 133, 206)
 }
